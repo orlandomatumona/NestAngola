@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <!--a parte do css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--fontes de letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <!--link para poder adicionar icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nest Angola-Alojamento</title>
+  </head>
+  <body>
+        <section id="Title">
+
+            <!--vamos trabalhar o navbar-->
+          <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <img src="logo.png" width="90" height="60">
+                <a class="navbar-brand" href="nest.html"><span class="tudo">NEST</span> ANGOLA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse  justify-content-md-center " id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Contacto
+                           </a>
+
+                           <div class="dropdown-menu contacto" aria-labelledby="navbarDropdownMenuLink">
+                          
+                            <!--aqui e a parte do contacto do dropdown que dividimos em coluna para poder meter as informacoes-->
+                            <div class="row py-5  justify-content-end border border-light">
+
+                                <div class="col ">
+                                    <h2>Ligue para nós</h2>
+                                    <p>Em todo o território nacional: 8h-21h, de segunda a sexta</p>
+                                    <button type="button" class="btn  btn-outline-dark border border-dark" data-toggle="button" aria-pressed="false"><i class="fa-solid fa-phone"></i>
+                                        (+244) 93634-9449
+                                    </button>
+                                </div>
+
+                                <div class="col">
+                                    <h2 >Conversar agora</h2>
+                                    <p>Converse com a nossa equipe de vendas e suporte para respostas rápidas sobre as características do produto, preço e muito mais.</p>
+                                     
+                                    <button type="button" class="btn btn-block  btn-outline-dark border border-dark" data-toggle="button" aria-pressed="false"><i class="fa-brands fa-square-whatsapp"></i>
+                                        Envie-nos uma mensagem no whatsapp
+                                    </button>
+
+                                        <button type="button" class="btn btn-outline-dark border border-dark" data-toggle="button" aria-pressed="false"><i class="fa-solid fa-camera-web"></i>
+                                            Live Chat
+                                        </button>
+    
+                                </div>
+                              
+                              </div>
+                               <!--fim-->
+                           </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="hospedagem.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Hospedagem
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="hospedagem-partilhada.html">Hospedagem Compartilhada </a>
+                          <a class="dropdown-item" href="">Hospedagem WordPress</a>
+                          <a class="dropdown-item" href="#">Hospedagem para revendedores</a>
+                          <a class="dropdown-item" href="#">Hospedagem VPS</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Dominio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Email</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> Blog</a>
+                    </li>
+
+                    <li>
+                        <button type="button" class="btn btn-outline-dark border border-dark" data-toggle="button" aria-pressed="false"><i class="fa-solid fa-user"></i>
+                          Entra / Criar Conta
+                          </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </nav>
+            </div>
+
+ <!--aqui e a sessao de publicidade -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="carrousel-temas">BEM-VINDO A NEST ANGOLA</h1>
+          <p class="carrousel-subtemas">Tornamos o seu mundo mais Real</p>
+          <button type="button" class="btn btn-outline-dark border border-dark" data-toggle="button" aria-pressed="false"><i class="fa-solid fa-user"></i>
+            Entra / Criar Conta
+            </button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="nest.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="carrousel-temas">Sites + Marketing</h1>
+            <p class="carrousel-subtemas">Crie um site incrível em menos de 1 hora.</p>
+            <h3 class="btn btn-outline-sm btn-secondary">Melhor Hospedagem da Web em Angola so na Nest</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Nest2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="carrousel-subtemas">Nomes de domínio</h3>
+          <h1 Domínio class="carrousel-temas">Domínio .com por apenas 9,500 Kzs / 1º ano</h1>
+          <a href="#" class="tirado-azul btn btn-sm btn-secondary">Seu Domínio Comece do mais simples</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ 
+
+
+</section>
+
+<section id="Marketing">
+
+  <div class="marting-maior">A sua felicidade e o nosso maior Orgulho</div>
+ 
+ <!-- Marketing messaging and featurettes-->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container">
+
+    <!-- four columns of text below the carousel -->
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4">
+      <div class="col">
+        <img src="dominio.jpg" class="rounded-circle " width="140" height="140"  alt="...">
+        <h4>Domínio</h4>
+        <p>9,000kzs / Primeiro Ano.</p>
+        <p><a class="btn  btn-lg " href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col ">
+        <img src="email.png" class="rounded-circle " width="140" height="140"  alt="...">
+        <h4>Email Profissional</h4>
+        <p>500kzs / Primeiro Ano</p>
+        <p><a class="btn btn-lg " href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col">
+        <img src="wordpress.jpg" class="rounded-circle " width="140" height="140"  alt="...">
+        <h4>WordPress</h4>
+        <p>1,399 kzs / Primeiro Ano</p>
+        <p><a class="btn  btn-lg" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col ">
+        <img src="hospedagem.jpg" class="rounded-circle " width="140" height="140"  alt="...">
+     <h4>Hospedagem Compartilhada</h4>
+        <p>2,499kzs / Primeiro Ano</p>
+        <p><a class="btn  btn-lg" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-3 -->
+
+    </div><!-- /.row -->
+
+    </div><!-- /.row -->
+
+<hr>
+   
+     <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4">
+       
+        <div class="col">
+          <img src="dinheiro.jpg" class="rounded-circle " width="140" height="140"  alt="...">
+          <h4>Revenda 100 Contas</h4>
+          <p>99,867kzs / Primeiro Ano</p>
+          <p><a class="btn  btn-lg" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+      
+        <div class="col">
+          <img src="ssl.jpeg" class="rounded-circle" width="140" height="140"  alt="...">
+        <h4>SSL Security</h4>
+          <p>5,000kzs / Primeiro Ano</p>
+          <p><a class="btn  btn-lg" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+      
+        <div class="col">
+          <img src="venda.jpg" class="rounded-circle " width="140" height="140"  alt="...">
+          <h4>Revenda Infinita</h4>
+          <p>213,971 kzs / Primeiro Ano</p>
+          <p><a class="btn  btn-lg" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+      
+        <div class="col">
+          <img src="vpn.jpg" class="rounded-circle" width="140" height="140"  alt="...">
+          <h4>VPS</h4>
+          <p>27,850 kz / Primeiro Ano</p>
+          <p><a class="btn btn-lg" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+      
+    </div>
+
+  
+
+</section>
+
+<section id="featurette">
+
+  <div class="marting-maior">Traga suas ideias para a Internet.</div>
+   <!-- START THE FEATURETTES -->
+
+   <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Hospedagem.<br></h2> <span>Site rápido, seguro e sempre disponível.</span>
+        <p class="lead">Você já tem um site? Traga-o para onde ele merece estar. Com os tempos de carregamento mais rápidos do setor, garantia de uptime de 99,9% e suporte especializado, seu site terá absolutamente tudo o que há de melhor.</p>
+        <a href="#" class="btn btn-md btn-outline-dark" >Consulte Os Planos De Hospedagem De Sites</a>
+      </div>
+      <div class="col-md-5">
+        <img src="business.jpg" class="" width="580" height="500"  alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Domínios .co.ao<br></h2><span>Compartilhe o seu amor por Angola com o mundo.
+        </span>
+        <p class="lead"> Com um domínio .co.ao, você tem a melhor opção em mãos. Ele combina a popularidade do .co e a marca de Angola representada pelo .ao, dando a você o nome que alcança todos os clientes, sejam eles locais ou mundiais.</p>
+        <a href="#" class="btn btn-md btn-outline-dark" >
+          Encontre Meu .Ao</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="dominio1.png" class="" width="580" height="500"  alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Programa de afiliados da Nest Angola.<br></h2><span >Recomende a Nest Angola e ganhe dinheiro.</span>
+       <p class="lead">Deixe que os seus amigos e familiares fiquem por dentro dos seus produtos favoritos da Nest Angola e ainda lucre quando eles comprarem com a gente. Você não só estará ajudando as pessoas a criar uma presença online, como também receberá algo em troca. Todo mundo sai ganhando!</p>
+       <a href="#" class="btn btn-md btn-outline-dark" >Seja Um Afiliado(A)</a>
+      </div>
+
+      <div class="col-md-5">
+        <img src="recomendation.png" class="" width="580" height="500"  alt="...">
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Email Profissional<br></h2><span >Potencialize seu sucesso.
+        </span>
+        <p class="lead">Todo mundo tem um email, mas nem todo email é igual. Os clientes têm nove vezes mais probabilidade de escolher uma empresa com um endereço profissional, como olá@domínio.com.</p>
+        <a href="#" class="btn btn-md btn-outline-dark" >Ver Planos De Email</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="email.jpg" class="" width="580" height="500"  alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-6" >
+        <h2 class="featurette-heading">Sites<br> </h2> <span >Obtenha mais que um simples site.
+        </span>
+       <p class="lead">Crie facilmente um site moderno e profissional, sem precisar de nenhum domínio técnico, graças a centenas de modelos específicos que o wordpress oferece.</p>
+       <a href="#" class="btn btn-lg btn-outline-dark" >Obtenha ja o seu Site</a>
+      </div>
+
+      <div class="col-md-6">
+        <img src="site.jpg" class="" width="580" height="500"  alt="...">
+      </div>
+    </div>
+
+
+</section>
+
+<section id="foto">
+  <div class="Marting-maior">
+    Entendemos: "Não é apenas um site, é o seu sonho".
+  </div>
+
+
+<div class="container-fluid">
+  
+  <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner" style="height:500;">
+
+    <div class="fotos carousel-item active" style="background-image: url(publicidade.jpg); background-position: center; background-repeat: no-repeat; background-size:cover;">
+    
+    </div>
+
+    <div class="fotos carousel-item" style="background-image:url(certo.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+     
+    </div>
+
+    <div class="fotos carousel-item" style="background-image: url(publicidade1.jpg);background-position: center; background-repeat: no-repeat; background-size: cover;">
+    
+    </div>
+
+  </div>
+  
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="verificar-planos">
+
+    <div class="row">
+
+      <div class="col-lg-7">
+        <img src="fotos.jpg" class="" width="580" height="500"  alt="...">
+      </div>
+
+      <div class="col-md-5">
+        <h2 class="texto-baixo-1"> Apoio aos empreendedores durante COVID-19</h2>
+        <h1>#NestAngola4you é nossa campanha para apoiar pequenos negócios.</h1>
+        <p class="empreendedor">
+          Você já tem um site? Traga-o para onde ele merece estar. Com os tempos de carregamento mais rápidos do setor, garantia de uptime de 99,9% e suporte especializado, seu site terá absolutamente tudo o que há de melhor.
+          </p>
+
+          <a href="#" class="btn btn-lg btn-outline-dark">Verificar Planos</a>
+      </div>
+ </div>
+
+</section>
+
+<hr>
+
+<section id="guides">
+
+
+
+  <div class="guides-row row featurette">
+    <div class="col-md-6" >
+      <h2 class="featurette-heading">Nest Angola Guides</h2> Por que escolher a Nest Angola?
+     <p class="lead1">Somos uma empresa presente em 3 países no mundo nomeadamente a India, Nepal e Angola. Com foco principal nas startups contendo mais de 20.000 clientes espalhados pelo mundo e por acreditamos muito no potencial de negócios emergentes, tipo de negócio que muito tem crescido em Angola contendo startups dos mais variados ramos. Então aqui estamos para contribuir para o desenvolvimento de um grande ecossistema e desejamos ser o seu parceiro.</p>
+     <a href="#" class="btn btn-lg btn-outline-dark" >INICIAR</a>
+    </div>
+
+    <div class="col-md-6">
+      <img src="angola.jpg" class="" width="550" height="500"  alt="...">
+    </div>
+  </div>
+ 
+</section>
+
+
+<section id="Angola">
+  <p class="Angola">Milhões de clientes confiam nos nossos domínios e hospedagem de sites para colocar as suas ideias em prática online.</p>
+</section>
+
+<section id="footer-final">
+
+
+<footer class="footer">
+
+  <div class="container">
+
+      <div class="row">
+
+           <div class="footer-col">
+              <h4>Producto</h4>
+               <ul>
+                <li><a href="">Hospedagem Compartilhada</a></li>
+                <li><a href="">Servidor VPS</a></li>
+                <li><a href="">Hospedagem Business</a></li>
+                <li><a href="">Hospedagem WordPress</a></li>
+                <li><a href="">Dominio</a></li>
+                <li><a href="">e-mail profissional</a></li>
+              </ul>
+          </div>
+
+
+          <div class="footer-col">
+            <h4>Companhia</h4>
+             <ul>
+              <li><a href="">Sobre a Nest Angola</a></li>
+              <li><a href="">Apoiar</a></li>
+              <li><a href="">Contate-Nos</a></li>
+              <li><a href="">Carreira</a></li>
+              <li><a href="">Termos de Servicos</a></li>
+              <li><a href="">Politica de Privacidade</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Apoiar</h4>
+           <ul>
+            <li><a href="">Enviar um bilhete</a></li>
+            <li><a href="">Base de conhecimento</a></li>
+            <li><a href="">Blogue</a></li>
+            <li><a href="">Denunciar Abuso</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Programas</h4>
+         <ul>
+          <li><a href="">Parceria</a></li>
+          <li><a href="">Afiliados</a></li>
+          <li><a href="">Carreiras</a></li>
+          <li><a href="">Estagios</a></li>
+        
+        </ul>
+    </div>
+
+   
+    </div>
+
+
+
+    <div class="footer-col">
+     
+      <h4> <img src="logo.png" class="" width="35" height="35"  alt="..."> NEST ANGOLA</h4>
+     
+<ul> 
+   <div class="social-link">  
+      <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+  </body>

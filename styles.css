@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Ubuntu+Condensed&display=swap');
+
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+#Title{
+  background-color: #fff;
+    color: black;
+  }
+
+/*Este container serviu para nos poder ajustar mais as nav estar quase ao centro*/
+.container-fluid{
+    padding: 1% 10%;
+}
+
+/*aqui alteramos os dados da nest*/
+.navbar-brand{
+    font-size: 1.2rem;
+    font-weight: hold;
+}
+
+.tudo{
+  color:gold;
+  font-size: 1.2rem;
+}
+/*vamos trabalhar o navbar*/
+.navbar{
+  background-color: #fff;
+
+}
+/*vamos dar espaco entre os nav-item*/
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+/*este contacto serviu para nos poder meter o background*/
+.contacto{
+    background-color: rgb(182, 221, 208);
+}
+
+
+/*vamos trabalhar o carrosel*/
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.carrousel-temas{
+  font-size: 4rem;
+  text-align: center;
+  color: goldenrod;
+  font-weight: 500;
+}
+
+.carrousel-subtemas{
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* MARKETING CONTENT*/
+#Marketing{
+padding: 4% 8%;
+font-weight: 400;
+}
+
+.row-cols-1{
+  padding: 3% 12%;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-3 {
+  margin-bottom: 2rem;
+ 
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-3 p {
+  margin-right: 1.75rem;
+  margin-left: 1.75rem;
+}
+
+.marting-maior{
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(231, 176, 37);
+
+}
+h4{
+  text-align: center;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+p{
+  text-align: center;
+}
+.col{
+  text-align: center;
+}
+hr{
+  position: relative;
+ display: block;
+ height: 3px;
+ width: 50rem;
+ border: none;
+ margin-top: 2rem;
+ background: linear-gradient(to right, transparent 50%, rgb(240, 239, 236) 50%),linear-gradient(to right, black, gold);
+ background-size: 1.5rem, 100%;
+ transform-origin: 50% 0%;
+ transform: rotate(1deg);
+}
+.btn{
+  background-color: rgba(255, 217, 0, 0.692);
+} 
+
+/* Featurettes
+------------------------- */
+#featurette{
+  padding-left: 4rem;
+  padding: 1% 5%;
+}
+
+.featurette-heading{
+  font-size: 2.5rem;
+  color: rgb(231, 176, 37);
+  font-weight: 300;
+}
+span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  color: black;
+
+}
+
+.lead{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: 200;
+}
+
+/*vamos trabalhar sessao da foto*/
+.Marting-maior{
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(231, 176, 37);
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.fotos{
+width: 1600px;
+height: 700px;
+border-radius: 10px;
+border-color: goldenrod;
+border: 3px;
+}
+
+/*vamos trabalhar identificar verificar-planos*/
+#verificar-planos{
+  background-color:gold;
+  padding: 8% 16%;
+  margin-bottom: 4rem;
+ 
+}
+.foto{
+  width: 500px;
+  height: 500px;
+}
+
+.empreendedor{
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 600;
+  
+}
+
+.texto-baixo-1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  color: blanchedalmond;
+  font-weight: 600;
+  
+}
+/*Vamos trabalhar guides*/
+#guides{
+padding-left: 3rem;
+text-align: center;
+background-color: black;
+  
+}
+
+.guides-row {
+ text-align: justify;
+ color: #fff;
+ 
+}
+
+.lead1{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/*aqui vamos trabalhar Angola*/
+.Angola{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(231, 176, 37); 
+}
+
+
+/*vamos trabalhar footer*/
+#footer-final{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: gold;
+  padding: 70px 0;
+ 
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 4%;
+  text-align: left;
+
+
+}
+
+.footer-col h4{
+  font-size: 15px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 5;
+  bottom: -15px;
+  background-color: red;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: red;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(116, 27, 27);
+  display: block;
+  transition: all 0.5s ease;
+}
+.footer-col ul li a:hover{
+  color: #fff;
+  padding-left: 8px;
+}
+.footer-col .social-link a{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #ffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-link a:hover{
+  color: gold;
+  background-color: black;
+
+}
+/*responsive */
+
+@media(max-width:767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:574px){
+  .footer-col{
+    width: 100%;
+
+  }
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption  {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/*vamos trabalhar hospedagem de uma pagina*/
+
+/*vamos trabalhar a sessao de preco*/
+#precos-2{
+background-color: black;
+padding: 7% 9%;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-colum{
+  padding: 2% /*este e para o top*/  1% /*este e para lado esquerdo e direito*/;
+  text-align: center;
+}
+
+.preco-2-titulo{
+  color: gold;
+  text-align: center;
+  font-weight: 600;
+}
+
+.preco-2-texto{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+ /*vamos trabalhar hospedagem-3*/
+
+ #hospedagem-3{
+  padding: 7% 15%;
+  background-color: #fff;
+ }
+
+ .informacao{
+  color: gold;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: 600;
+ }
+
+ .informacao-text{
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  line-height: 1rem;
+  color: black;
+  font-weight: 500;
+  padding: 0 1rem 0 1rem;
+
+ }
+ 
+ .informacao-text-3{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  line-height: 2rem;
+  color: black;
+  font-weight: 400;
+ 
+ }
+ 
+ .informacao-text-2{
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  line-height: 2rem;
+  color:#fff
+ }
+ .information-sub{
+  color: gold;
+  font-weight: 600;
+  text-align: center;
+  font-weight: 600;
+ }
+
+/*vamos trabalhar hospedagem 1*/
+#Hospedagem-1{
+  padding: 3% 6%;
+  background-image: url(color.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hospedagem-1-h1{
+  color: black;
+  text-align: center;
+  font-weight: 750;
+  font-size: 3.5rem;
+  padding-bottom: 1.3px;
+}
+
+
+.hospedagem-1-sub{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: gold;
+
+}
+
+.hospedagem-1-titulos{
+  color: gold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nestlogo{
+  padding-top: 4rem;
+  
+}
+
+.iniciar{
+  padding-top: 5rem;
+  padding-left:3rem;
+}
+
+.logo-centro{
+  padding-left: 28rem;
+}
+
+ /*Vamos trabalhar Hospedagem-4*/
+
+ #Hospedagem-4{
+  background-color: black;
+  padding: 7% 15%;
+ }
+
+ /*Vamos trabalhar hospedagem compartilhada*/
+ #compartilhada{
+  padding: 13% 20%;
+  background-image: url(compartilhada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+ }
+
+ .container-partilhado-1{
+  color:gold;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  word-spacing: 0.5rem;
+
+ }
+ .quadro{
+  font-size: 1rem;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+ border: 2px double black ;
+ border-bottom:2px dotted red;
+ border-top: 2px dotted yellow;
+ text-align: justify;
+ line-height: 1rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ margin-bottom: 2rem;
+
+ }
+ .quadro-1{
+  color: black;
+  text-align: justify;
+  font-weight: 600;
+  
+ }
+ .quadro-2{
+  color: red;
+  line-height: 2rem;
+  word-spacing: 0.5rem;
+ }
+ .quadro-3{
+  color: black;
+  text-align: justify;
+  line-height: 2rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+
+ }
+ 
+ /*vamos trabalhar a sessao ideal*/
+ 
+ #ideal{
+  padding: 7% 11%;
+  color:#fff;
+  text-align: justify;
+  background-color: black;
+ }
+.mensal{
+text-align: justify;
+color: black;
+
+}
+.kwanza-preco{
+  font-size: 1.5rem;
+}
+ .principais-recurso{
+  padding-top: 2rem;
+  text-align: justify;
+  line-height: 2rem;
+  background-color: black;
+  color: #fff;
+  padding-top: 1rem;
+  border-radius: 0.3rem;
+  padding-left: 0.1rem;
+  word-spacing: 0.5rem;
+
+ }
+
+ .superior{
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+ }
+
+ /*vamos editar planos */
+ #planos{
+  padding: 1% 12%;
+  color: black;
+ }
+
+ .row-cols-lg-3{
+  text-align: justify;
+  padding-bottom: 3rem;
+ }
+
+ .terminando{
+  color: gold;
+  font-weight: 1000;
+  text-align: justify;
+  
+ }
+
+.terminando-text{
+  text-align: justify;
+  line-height: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+}
+
+/*vamos trabalhar featurette1*/
+#featurette1{
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.card-group{
+  padding-top: 3rem;
+}
+
+.inteligente{
+  color: gold;
+}
+
+.backup{
+  color: gold;
+  text-align: justify;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+/*vamos trabalhar detalhes*/
+
+#detalhes{
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+/*vamos trabalhar o wordpress pagina*/
+#compartilhada2{
+padding: 7% 12%;
+background-image: url(wordpress4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: justify;
+
+}
+
+.quadro-1-1{
+  color:red;
+  font-weight: 700;
+  text-align: justify;
+  padding-left: 1rem;
+}
+
+.quadro-1-2{
+  color: gold;
+  font-weight: 700;
+ word-spacing: 0.5rem;
+ padding-left: 1rem;
+ font-weight: 700;
+}
+
+.quandro1{
+  width: 200px;
+  height: 200px;
+  transition: 5s ease-in;
+
+ 
+}
+.quadro1:hover{
+  font-size: 1rem;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+ border: 2px double black ;
+ border-bottom:2px dotted red;
+ border-top: 2px dotted yellow;
+ text-align: justify;
+ line-height: 2rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ margin-bottom: 2rem;
+
+ 
+
+}
+
+.quadro3{
+  color: red;
+  font-weight: 600;
+}
+.quadro4{
+  text-align: justify;
+  color: #fff;
+  font-weight: 600;
+}
+
+/*vamos trabalhar recursos-wordpress*/
+
+#recursos-wordpress{
+  padding: 7% 10%;
+ line-height: 1rem;
+ background-color: black;
+ color: #fff;
+}
+
+/*vamos trabalhar Plugins*/
+
+#Plugins{
+  padding: 7% 10%;
+  background-color: #F2F2F2;
+}
+
+.populares{
+  text-align: center;
+  padding-bottom: 1rem ;
+}
